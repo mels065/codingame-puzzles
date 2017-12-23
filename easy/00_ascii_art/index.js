@@ -1,8 +1,5 @@
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
-
+// Write an action using print()
+// To debug: printErr('Debug messages...');
 const NUM_OF_ASCII_CHARS = 27,
       A_ASCII_CODE = 65,
       Z_ASCII_CODE = 90,
@@ -17,9 +14,6 @@ asciiChars.forEach(row => {
         row.push(rowStr.slice(L*k, L*(k+1)));
     }
 });
-
-// Write an action using print()
-// To debug: printErr('Debug messages...');
 
 printAsciiArt();
 
